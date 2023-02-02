@@ -1,6 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
-
 import { Box, Button, Link, Text, useColorMode } from "@chakra-ui/react";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { FaGoogle, FaMoon, FaSun } from "react-icons/fa";

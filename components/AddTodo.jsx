@@ -1,4 +1,5 @@
 import React from "react";
+import { useState} from "react";
 import {
 Box,
 Input,
@@ -15,7 +16,7 @@ import { addTodo } from "../pages/api/todo";
 
 
 const AddTodo = () => {
-    const [title, setTitle] = React.useState("");
+    const [title, setTitle] = useState("");
     const [description, setDescription] = React.useState("");
     const [status, setStatus] = React.useState("pending");
     const [isLoading, setIsLoading] = React.useState(false);
